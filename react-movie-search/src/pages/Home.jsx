@@ -1,11 +1,19 @@
 import MovieCard from "../components/MovieCard";
 import { useState } from "react";
+import '../css/Home.css'
 function Home (){
   const [searchQuery,setSearchQuery] = useState("");
   const movies = [
     {id : 1 , title : "time movie", release_date: "2025"},
     {id : 2 , title : "terminator", release_date: "1999"},
     {id : 3 , title : "the matrix", release_date: "1998"},
+    {id : 1 , title : "time movie", release_date: "2025"},
+    {id : 1 , title : "time movie", release_date: "2025"},
+    {id : 1 , title : "time movie", release_date: "2025"},
+    {id : 1 , title : "time movie", release_date: "2025"},
+    {id : 1 , title : "time movie", release_date: "2025"},
+    {id : 1 , title : "time movie", release_date: "2025"},
+    
   ];
      const handleSearch = (e) =>{
       e.preventDefault()
