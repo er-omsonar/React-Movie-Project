@@ -53,11 +53,20 @@
   }
 }
 
-.movies-grid {
+/* .movie-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
   padding: 1rem;
   width: 100%;
   box-sizing: border-box;
+} */
+
+.movie-grid {
+  width: 100%;
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* EXACTLY 5 PER ROW */
+  gap: 20px;
 }
